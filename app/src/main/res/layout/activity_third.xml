@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <EditText
+        android:id="@+id/ettitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addTitle"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/year"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/etgenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/etrated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rated"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/etwatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/watched"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/ettheatre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addTheatre"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/etdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addDesc"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add" />
+</LinearLayout>

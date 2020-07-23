@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Movie</string>
+    <string name="info">Movie Year and Genres</string>
+    <string name="title">Title</string>
+    <string name="desc">Movie Description</string>
+    <string name="watched_on">Watched on: DD/MM/YYYY</string>
+    <string name="theatre">In Theatre: Cinema Name</string>
+    <string name="addTitle">Enter Title</string>
+    <string name="year">Enter Year</string>
+    <string name="genre">Enter Genre</string>
+    <string name="rated">Enter Rated</string>
+    <string name="watched">Enter Date Watched</string>
+    <string name="addTheatre">Enter Theatre</string>
+    <string name="addDesc">Enter Description</string>
+</resources>
